@@ -5,6 +5,7 @@
                "local-nicknames-example/main"))
 
 (defsystem "local-nicknames-example"
-  :depends-on ("trivial-package-local-nicknames")
+  :depends-on ("trivial-package-local-nicknames"
+               "alexandria")
   :serial t
   :components ((:file "main")))
